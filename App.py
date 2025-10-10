@@ -11,7 +11,7 @@ model = pickle.load(open("ckd_model.pkl", 'rb'))
 col1, col2, col3 = st.columns([1, 3, 1])
 
 with col2:
-    st.image("C:/Users/HP/OneDrive/Pictures/Saved Pictures/IMG-20250522-WA0032.jpg", width=100)
+    st.image("IMG-20250522-WA0032.jpg", width=100)
     st.write("Contact: [ifeanyistephen003@gmail.com]")
 st.write("---")
 
@@ -62,5 +62,6 @@ if st.button("Predict"):
 st.write("---")
 
 st.markdown("© 2025 All rights reserved | Developed by PRINCEDEX")
+
 
 
