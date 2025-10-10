@@ -5,7 +5,7 @@ import numpy as np
 
 
 # Load the model
-with open("C:/Users/HP/MyProject/CKD_model/ckd_model.pkl", 'rb') as f:
+with open("ckd_model.pkl", 'rb') as f:
     model = pickle.load(f)
 # my information
 col1, col2, col3 = st.columns([1, 3, 1])
@@ -60,4 +60,5 @@ if st.button("Predict"):
         st.write("This patient has CKD.")   
 
 st.write("---")
+
 st.markdown("© 2025 All rights reserved | Developed by PRINCEDEX")
