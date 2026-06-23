@@ -88,7 +88,7 @@ if 'history' not in st.session_state:
 
 # ── Sidebar Navigation ────────────────────────────────────────────
 st.sidebar.image(
-    "kidney.jpg",
+    "Kidney.jpg",
     width=250,
     caption="Empower your kidney health. Get fast, data-driven CKD risk insights in seconds"
 )
