@@ -400,8 +400,10 @@ elif page == '📖 About & How to Use':
 
     ---
     ### 👨‍💻 Developer Info
-    - **Project:** Developed by Ani Merit(Final Year BME Student, UNN)
-    - **Project:** Supervised by Engr. Dr. Ojike
+    **Developed by Ani Merit(Final Year BME Student, UNN)**
+    \n
+            Supervised by Engr. Dr. Ojike
+    \n
     - **Project:** CKD Prediction Using Machine Learning
     - **Dataset:** UCI CKD Dataset (via Kaggle)
     - **Model:** Random Forest Classifier
